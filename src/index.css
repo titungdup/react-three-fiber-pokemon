@@ -39,7 +39,7 @@ body,
 }
 
 .logo {
-  width: 500px;
+  max-width: 430px;
   opacity: 0.8;
 }
 
