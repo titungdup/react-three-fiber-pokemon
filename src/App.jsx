@@ -1,9 +1,12 @@
-import { Suspense, useState } from 'react'
+import { Suspense } from 'react'
+import { inject } from '@vercel/analytics/*'
 import { Canvas } from '@react-three/fiber'
 import { Environment } from '@react-three/drei'
 import { EffectComposer, DepthOfField } from '@react-three/postprocessing'
 import PokeBall from './Pokeball'
 import PokemonLogo from './assets/pokemon.png'
+
+inject()
 
 function App({ count = 100, depth = 100 }) {
   // const [speed, setSpeed] = useState(0.025)
