@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { inject } from '@vercel/analytics/*'
+import { inject } from '@vercel/analytics'
 import { Canvas } from '@react-three/fiber'
 import { Environment } from '@react-three/drei'
 import { EffectComposer, DepthOfField } from '@react-three/postprocessing'
